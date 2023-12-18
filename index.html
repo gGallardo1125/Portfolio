@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Gallardo</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.ico">
+
+<style>
+    #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: var(--first-color);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
+
+#myBtn:hover {
+  background-color: var(--first-color-dark);
+}
+</style>
+    </head>
+    <body>
+        <button id="myBtn" onclick="scrollToTop()"><i class='bx bxs-arrow-to-top' id="aroow_top"></i></button>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <article class="nav_toggle" id="nav_toggle">
+                    <i class='bx bx-menu'></i>
+                </article>
+
+                <article>
+                    <a href="#" class="nav_logo">Gallardo</a>
+                </article>
+
+                <article class="nav_menu" id="nav_menu">
+                    <article class="nav_close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </article>
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                        <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                        <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                        <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
+                        <li class="nav_item"><a href="#works" class="nav_link">Works</a></li>
+                        <li class="nav_item"><a href="#contact" class="nav_link">Contact Me</a></li>
+                    </ul>
+                    
+                </article>
+            </nav>
+        </header>
+        
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <article class="home_container bd-grid">
+                    <article class="home_data">
+                        <article class="home_img">
+                            <img src="assets/img/Profile2.png" alt="">
+                        </article>
+
+                        <h1 class="home_title">Gallardo, Lord Angel</h1>
+                        <span class="home_profession">Front-end / Back-end Developer</span>
+
+                        <article class="home_social">
+                            <a href="https://www.facebook.com/DontLikeme101" target="_blank" class="home_social-link"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmah._.gg%3Ffbclid%3DIwAR2m6x65AiGAAQcT9VHrAqZgYCpa5d8lBocLNrVOht_AF_WKN_D9E46sCrY&h=AT2H1qvmvWi8jFsn1DYHgHX_viaFGJFd-IhHH9XuJIRRQ9fwENIFtiko3-4sTfjifsTzLivVJDor6s_ohKp8rIN0yIIPZdKDwzl2BdAgMKibFll9knukUFh9mCyYAzOj1ZT8-kSLSU0njPXbWKA5" target="_blank"                                                                                                                                                                                                                                                                                                              class="home_social-link"><i class='bx bxl-instagram-alt' ></i></a>
+                            <a href="mailto:galalrdoeditingprocess@gmail.com" class="home_social-link"><i class='bx bxl-gmail' ></i></a>
+                            <a href="https://github.com/gGallardo1125/gGallardo1125/blob/main/PortfolioCV.zip" target="_blank" class="home_social-link"><i class='bx bxl-github' ></i></a>
+                        </article>
+                        <a download="" href="assets/GallardoCV.pdf" class="button home_button">Download CV</a>
+                    </article>
+                </article>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <span class="section-subtitle">Introduction</span>
+                <h2 class="section-title">About Me</h2>
+                <!-- <img src="assets/img/About1.png" alt="" class="about_img"> -->
+
+                <article class="about_container bd-grid">
+                    <article class="about_data">
+                        <p class="about_description">Mr. Lord Angel B. Gallardo, a 23-year-old man, is deeply committed to his love of visual and graphic design. He is deeply involved in the creative process and is a college student currently obtaining a Bachelor of Science in Computer Science. His projects entail a great deal of design, editing, encoding, and research, setting the groundwork for a profession that includes both 
+                            PHP, JavaScript, CSS, and HTML are some of the languages used in front-end and back-end programming.</p>
+                            
+                    </article>
+                    <article>
+                        <article class="about_information">
+                            <h3 class="about_information-title">Information</h3>
+    
+                            <article class="about_information-data">
+                                <i class='bx bx-user about_information-icon' ></i>
+                                <span>Gallardo, Lord Angel</span>
+                            </article>
+    
+                            <article class="about_information-data">
+                                <i class='bx bx-phone about_information-icon' ></i>
+                                <span><a href="tel:+639707034262">+63-9707-034-362</a></span>
+                            </article>
+    
+                            <article class="about_information-data">
+                                <i class='bx bx-envelope about_information-icon' ></i>
+                                <span><a href="mailto:gallardoeditingprocess@gmail.com">gallardoeditingprocess@gmail.com</a></span>
+                            </article>
+                        </article>
+    
+                        <article class="about_information">
+                            <h3 class="about_information-title">Training and Support</h3>
+    
+                            <article class="about_information-data">
+                                <i class='bx bx-bulb about_information-icon' ></i>
+                                <article>
+                                    <span class="about_information-subtitle">November 18, 2023</span>
+                                    <span class="about_information-subtitle-small">Solar Home Phil. Training</span>
+                                </article>
+                            </article>
+    
+                            <article class="about_information-data">
+                                <i class='bx bxl-xing about_information-icon' ></i>
+                                <article>
+                                    <span class="about_information-subtitle">August 2022</span>
+                                    <span class="about_information-subtitle-small">Basic Electrical Training Program</span>
+                                </article>
+                            </article>
+    
+                            <article class="about_information-data">
+                                <i class='bx bx-support about_information-icon' ></i>
+                                <article>
+                                    <span class="about_information-subtitle">Support</span>
+                                    <span class="about_information-subtitle-small">24/7 Online</span>
+                                </article>
+                            </article>
+                            </article>
+                    </article>
+
+
+                </article>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <span class="section-subtitle">Why Choose Me</span>
+                <h2 class="section-title">My Expertise Area</h2>
+
+                <article class="skills_container bd-grid">
+                    <article class="skills_content">
+
+                        <h3 class="skills_subtitle">Front-end</h3>
+
+                        <article class="skills_data">
+                            <span class="skills_name">HTML</span>
+                            <span class="skills_number">90%</span>
+                            <span class="skills_bar skills_html"></span>
+                        </article>
+
+                        <article class="skills_data">
+                            <span class="skills_name">CSS</span>
+                            <span class="skills_number">90%</span>
+                            <span class="skills_bar skills_css"></span>
+                        </article>
+
+                        <article class="skills_data">
+                            <span class="skills_name">JavaScript</span>
+                            <span class="skills_number">80%</span>
+                            <span class="skills_bar skills_js"></span>
+                        </article>
+
+
+                    </article>
+                    <article class="skills_content">
+
+                        <h3 class="skills_subtitle">Back-end</h3>
+                        
+                        <article class="skills_data">
+                            <span class="skills_name">Php</span>
+                            <span class="skills_number">80%</span>
+                            <span class="skills_bar skills_php"></span>
+                        </article>
+
+                        <article class="skills_data">
+                            <span class="skills_name">C++</span>
+                            <span class="skills_number">70</span>
+                            <span class="skills_bar skills_cpp"></span>
+                        </article>
+
+
+                    </article>
+                </article>
+            </section>
+
+            <!--===== EDUCATION =====-->
+            <section class="education section">
+                <span class="section-subtitle">Qualification</span>
+                <h2 class="section-title">Educational Background</h2>
+
+                <article class="education_container bd-grid">
+
+                    <article class="education_content">
+                        <article>
+                        <h3 class="education-year">2023</h3>
+                        <span class="education_university">Wesleyan University - Philippines, <br> Maria Aurora Extension Campus</span>
+                    </article>
+
+                    <article class="education_time">
+                        <span class="education_rounder"></span>
+                        <span class="education_line"></span>
+                    </article>
+
+                    <article>
+                        <h3 class="education-race">Student</h3>
+                        <span class="education_university">Bachelor of Science in Computer Science</span>
+                    </article>
+                </article>
+
+                    <article class="education_content">
+                        <article>
+                        <h3 class="education-year">2019</h3>
+                        <span class="education_university">Wesleyan University - Philippines,<br> Maria Aurora Extension Campus</span>
+                    </article>
+
+                    <article class="education_time">
+                        <span class="education_rounder"></span>
+                        <span class="education_line"></span>
+                    </article>
+
+                    <article>
+                        <h3 class="education-race">Senior High School</h3>
+                        <span class="education_university">General Academic Strand</span>
+                    </article>
+                </article>
+
+                    <article class="education_content">
+                        <article>
+                        <h3 class="education-year">2017</h3>
+                        <span class="education_university">Ramada National High School</span>
+                    </article>
+
+                    <article class="education_time">
+                        <span class="education_rounder"></span>
+                        <span class="education_line"></span>
+                    </article>
+
+                    <article>
+                        <h3 class="education-race">Junior High School</h3>
+                        <span class="education_university">Food Processing Specialization</span>
+                    </article>
+                </article>
+
+                <article class="education_content">
+                    <article>
+                    <h3 class="education-year">2013</h3>
+                    <span class="education_university">Maria Aurora Central School</span>
+                </article>
+
+                <article class="education_time">
+                    <span class="education_rounder"></span>
+                    <span class="education_line"></span>
+                </article>
+
+                <article>
+                    <h3 class="education-race">Elementary</h3>
+                </article>
+            </article>
+                </article>
+            </section>
+            <!--===== SERVICES =====-->
+            <section class="services section" id="services">
+                <span class="section-subtitle">What I Offer</span>
+                <h2 class="section-title">My Services</h2>
+
+                <article class="services_container bd-grid">
+                    <article class="services_content">
+                        <i class='bx bxl-visual-studio services_icon'></i>
+                        <h3 class="services_title">Visual Interface Design </h3>
+                        <p class="services_description">Craft stunning user interfaces effortlessly using our visual drag-and-drop interface. Bring your design vision to reality with ease, 
+                            whether you're creating a sleek web application, a powerful mobile app, or a seamless desktop experience.</p> 
+                    </article>
+
+
+                    <article class="services_content">
+                        <i class='bx bx-code services_icon'></i>
+                        <h3 class="services_title">System Development </h3>
+                        <p class="services_description">"I specialize in crafting custom system solutions tailored to your unique needs. As your dedicated developer, 
+                            I bring expertise in the entire development lifecycle, ensuring seamless integration and optimal performance.</p> 
+                    </article>
+
+                    <article class="services_content">
+                        <i class='bx bxs-edit services_icon'></i>
+                        <h3 class="services_title">Photo Editing </h3>
+                        <p class="services_description">"Elevate your visual identity with our expert photo editing services. We bring a creative touch and technical precision to enhance your images, ensuring they stand out in a visually saturated world. </p> 
+                    </article>
+                </article>
+            </section>
+
+            <!--===== PROJECT IN MIND =====-->
+            <section class="project section">
+                <article class="project_container bd-grid">
+                    <article class="project_data">
+                        <h2 class="section_title project_title">Do you have a project in mind?</h2>
+                        <p class="project_description">"Primarily, the service I offer is of the utmost quality,
+                             derived from my extensive background in the field, cultivated during my academic studies."</p>
+                             <a href="#contact" class="button button_light">Contact Me</a>
+                    </article>
+
+                    <img src="assets/img/Project121 copy.png" alt="" class="project_img">
+                </article>
+            </section>
+
+            <!--===== WORKS =====-->
+            <section class="work section" id="works">
+                <span class="section-subtitle">Sample Published Web-based System</span>
+                <h2 class="section-title">Recent Works</h2>
+
+                <article class="works_container bd-grid">
+                        <article class="works_img">
+                            <img src="assets/img/Project1.png" alt="">
+
+                            <article class="works_data">
+                                <a href="#" class="works_link"><i class='bx bx-link-alt' ></i></a>
+                                <span class="works_title">Web-based System Sample</span>
+                            </article>
+                        </article>
+
+                        <article class="works_img">
+                            <img src="assets/img/Project2.png" alt="">
+
+                        <article class="works_data">
+                            <a href="#" class="works_link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works_title">Web-based System Sample</span>
+                        </article>
+                </article>
+                </article>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <span class="section-subtitle">Contact Me</span>
+                <h2 class="section-title">Get In Touch</h2>
+
+                <article class="contact_container bd-grid">
+                    <form action="" class="contact_form">
+                        <article class="contact_inputs">
+                            <input type="text" placeholder="Name" class="contact_input">
+                            <input type="mail" placeholder="Email" class="contact_input">
+                        </article>
+
+                        <input type="text" placeholder="Project" class="contact_input">
+                        <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact_input"></textarea>
+
+                        <a href="mailto:gallardoeditingprocess@gmail.com" class="button contact_button"> Send Message</a> 
+                    </form>
+
+                    <article>
+                        <article class="contact_info">
+                            <h3 class="contact_subtitle">Call Me</h3>
+                            <span class="contact_text"><a href="tel:+639707034262">+63-9707-034-362</a></span>
+                        </article>
+
+                        <article class="contact_info">
+                            <h3 class="contact_subtitle">Email</h3>
+                            <span class="contact_text"><a href="mailto:gallardoeditingprocess@gmail.com">gallardoeditingprocess@gmail.com</a></span>
+                        </article>
+
+                        
+                        <article class="contact_info">
+                            <h3 class="contact_subtitle">Location</h3>
+                            <span class="contact_text">Brgy. Ramada Maria Aurora</span>
+                            <span class="contact_text">Aurora, Province</span>
+                        </article>
+                    </article>
+                </article>
+            </section>
+            
+        </main>
+
+        <!--===== FOOTER =====-->
+        
+<footer class="footer section">
+    <article class="footer_container bd-grid">
+        <h1 class="footer_title">Gallarado</h1>
+        <p class="footer_description">BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
+        
+
+        <article class="footer_social">
+            <a href="https://www.facebook.com/DontLikeme101" target="_blank" class="home_social-link"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmah._.gg%3Ffbclid%3DIwAR2m6x65AiGAAQcT9VHrAqZgYCpa5d8lBocLNrVOht_AF_WKN_D9E46sCrY&h=AT2H1qvmvWi8jFsn1DYHgHX_viaFGJFd-IhHH9XuJIRRQ9fwENIFtiko3-4sTfjifsTzLivVJDor6s_ohKp8rIN0yIIPZdKDwzl2BdAgMKibFll9knukUFh9mCyYAzOj1ZT8-kSLSU0njPXbWKA5" target="_blank"                                                                                                                                                                                                                                                                                                              class="home_social-link"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="mailto:galalrdoeditingprocess@gmail.com" class="home_social-link"><i class='bx bxl-gmail' ></i></a>
+            <a href="https://github.com/gGallardo1125/gGallardo1125/blob/main/PortfolioCV.zip" class="home_social-link" target="_parent"><i class='bx bxl-github' ></i></a>
+        </article>
+
+        <p class="footer_copy">All Rights Reserve 2023</p>
+    </article>
+</footer>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+    <script>
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    
+        // Function to toggle the visibility of the scroll-to-top button
+        function toggleScrollButton() {
+          var scrollButton = document.getElementById("myBtn");
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollButton.style.display = "block";
+          } else {
+            scrollButton.style.display = "none";
+          }
+        }
+    
+        // Add a scroll event listener to toggle the button visibility
+        window.onscroll = function() {
+          toggleScrollButton();
+        };
+      </script>
+
+
+</html>
